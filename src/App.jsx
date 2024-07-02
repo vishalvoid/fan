@@ -1,20 +1,14 @@
 // src/App.jsx
-import React, { useState } from "react";
-import GLBViewer from "./components/GLBViewer";
+import React from "react";
 import ARViewer from "./components/ARViewer";
 import "./App.css";
 
 const App = () => {
-  const [showAR, setShowAR] = useState(false);
   const modelUrl = "/AR.glb"; // Update with your Ngrok URL
 
   return (
     <div className="App">
-      <h1>Three.js and AR Model Viewer</h1>
-      <button onClick={() => setShowAR(!showAR)}>
-        {showAR ? "View in 3D" : "View in AR"}
-      </button>
-      {showAR ? <ARViewer url={modelUrl} /> : <GLBViewer url={modelUrl} />}
+      <ARViewer url={modelUrl} />
     </div>
   );
 };

@@ -9,3 +9,8 @@ body,
   padding: 0;
   overflow: hidden;
 }
+
+model-viewer {
+  width: 100vw;
+  height: 80vh;
+}

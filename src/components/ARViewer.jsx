@@ -10,7 +10,7 @@ const ARViewer = ({ url }) => {
       ar-modes="scene-viewer quick-look webxr"
       auto-rotate
       camera-controls
-      style={{ width: "100vw", height: "100vh" }}
+      style={{ width: "100vw", height: "80vh" }}
     ></model-viewer>
   );
 };

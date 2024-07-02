@@ -6,7 +6,7 @@ import "./App.css";
 
 const App = () => {
   const [showAR, setShowAR] = useState(false);
-  const modelUrl = "https://<your-ngrok-url>/path/to/your/model.glb"; // Update with your Ngrok URL
+  const modelUrl = "/AR.glb"; // Update with your Ngrok URL
 
   return (
     <div className="App">

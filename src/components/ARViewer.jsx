@@ -1,5 +1,5 @@
 // src/components/ARViewer.jsx
-import React from "react";
+import React, { useEffect } from "react";
 import "@google/model-viewer";
 
 const ARViewer = ({ url }) => {

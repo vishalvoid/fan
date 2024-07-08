@@ -7,6 +7,7 @@ const ARViewer = ({ url }) => {
     <model-viewer
       src={url}
       ar
+      ar-scale="16%"
       ar-modes="scene-viewer quick-look webxr"
       auto-rotate
       camera-controls

@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 # 3d_demo
 # 3d_website3_demo
 # 3d_website3_demo
+# bni
